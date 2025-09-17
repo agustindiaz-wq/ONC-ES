@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+
+# Modelos grandes (si son muy pesados)
+# model/*.keras
+# !model/modelo_final.keras
+
+# Datos
+*.csv
+*.h5
+*.npy
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
